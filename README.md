@@ -66,3 +66,5 @@ yarn deploy
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/) -->
+
+A site I made to show off some of my project and work exp for people to view.

@@ -23,26 +23,26 @@ const projects = [
   {
     name: 'Workout Buddy',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A workout app made for people who want to workout with their friends or just get into working out. Users can use premade workouts/exercises or create their own to schedule. Friends can see when their peer is planning to workout to then try and coordinate with them to find a workout partner.',
+    stack: ['React Native', 'JavaScript', 'Azure', 'Node.js', 'Express.js', 'MongoDB', 'Azure'],
+    sourceCode: 'https://github.com/Fedbca123/workout-planner',
+    // livePreview: 'https://github.com',
   },
   {
     name: 'Our Cooking Mama',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A social media app for users to share their recipes and cooking experiences with their friends. Users can create their own recipes and share them with their friends. Users can also follow their friends to see what they are cooking and like their recipes.',
+    stack: ['React Native', 'React', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'Heroku'],
+    sourceCode: 'https://github.com/Fedbca123/Large-Project-POOSD/tree/herokuTest',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Contact Manager',
+    name: 'ESRB Rating Predictor',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A machine learning model that predicts the ESRB rating of a video game based on its features. The model was trained on a dataset of over 18,000 video games. The model was able to achieve an accuracy of 95%. This project was used in a Kaggle competition and placed in the top 5% of submissions amongst hundreds of other people\'s submissions.',
+    stack: ['Python', 'Scikit-learn', 'Matplotlib', 'Pandas', 'NumPy'],
+    sourceCode: 'https://github.com/Fedbca123/ESRB-Rating-Predictor',
+    // livePreview: 'https://github.com',
   },
 ]
 
@@ -75,6 +75,7 @@ const skills = [
   'C++',
   'Java',
   'Azure',
+  'Heroku',
 ]
 
 const contact = {
