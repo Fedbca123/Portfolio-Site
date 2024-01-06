@@ -21,7 +21,7 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Workout Buddy',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -29,7 +29,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'Our Cooking Mama',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -37,7 +37,7 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Contact Manager',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
