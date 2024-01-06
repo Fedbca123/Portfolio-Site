@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Omar Shalaby',
-  role: 'Software Engineer',
+  role: 'New Grad Software Engineer',
   description:
     'I am a software engineer with a passion for building things. I have experience building full-stack web applications, mobile applications, and machine learning models. I am always looking for new opportunities to learn and grow.',
   resume: 'https://example.com',
