@@ -10,7 +10,7 @@ const about = {
   role: 'New Grad Software Engineer',
   description:
     'I am a software engineer with a passion for building things. I have experience building full-stack web applications, mobile applications, and machine learning models. I am always looking for new opportunities to learn and grow.',
-  resume: 'https://example.com',
+  resume: '',
   social: {
     linkedin: 'https://linkedin.com/in/omar-shalaby/',
     github: 'https://github.com/Fedbca123',
