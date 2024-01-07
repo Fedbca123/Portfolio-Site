@@ -1,0 +1,24 @@
+.workExp__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  grid-gap: 2em;
+}
+
+/* .workExp__item {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.workExp__item:hover {
+  transform: translateY(-7px);
+}
+
+.workExp__item__description && .workExp__item__date && .workExp__item__comapny && .workExp__item__title {
+  margin-top: 1em;
+} */
+

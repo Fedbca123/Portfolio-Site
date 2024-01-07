@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://Fedbca123.github.io/cleanfolio',
+  homepage: 'https://oshalaby.dev',
   title: 'JS.',
 }
 
@@ -16,6 +16,23 @@ const about = {
     github: 'https://github.com/Fedbca123',
   },
 }
+
+const workExp = [
+  // experience can be added an removed
+  // if there are no experience, Work Experience section won't show up
+  {
+    title: 'Software Engineer Intern',
+    company: 'ADT',
+    date: 'May 2023 - September 2023',
+    description: 'Worked on a small team of 2 as mainly the frontend dev making a user permissions management web application to be used internally for supervisor/director use from scratch. The tech stack used was the Salesforce Lightning Web Components (comprised of HTML, CSS, and JavaScript) framework for the frontend, and used a combination of Apex and Salesforce SOQL for the backend.',
+  },
+  {
+    title: 'FoodRunner',
+    company: 'Universal Orlando Resort',
+    date: 'June 2018 - May 2023',
+    description: 'I originally started as a host and then worked my way up and became a busser and later a food runner. I was responsible for delivering food to guests in a timely manner and ensuring that the food was correct while making sure it accomdated the guests allergies.',
+  },
+];
 
 const projects = [
   // projects can be added an removed
@@ -76,6 +93,8 @@ const skills = [
   'Java',
   'Azure',
   'Heroku',
+  'Vite',
+  'Vercel',
 ]
 
 const contact = {
@@ -83,4 +102,4 @@ const contact = {
   email: 'shalabymomar@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, workExp, projects, skills, contact }
