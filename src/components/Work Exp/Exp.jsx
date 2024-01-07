@@ -10,7 +10,7 @@ export default function Exp(){
     
     return (
         <section id='workExp' className='section workExp'>
-            <h2 className='section__title'>Job Experience</h2>
+            <h2 className='section__title'>Work History</h2>
 
             <div className='workExp__grid'>
                 {workExp.map((exp) => (
