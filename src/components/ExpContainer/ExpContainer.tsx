@@ -1,7 +1,6 @@
-// import uniqid from 'uniqid';
 import './ExpContainer.css';
 
-export default function ExpContainer({ exp }) {
+export default function ExpContainer({ exp }: { exp: {title:string, company:string, date:string, description:string} }) {
 
     return (
         <div className='exp'>

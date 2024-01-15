@@ -1,11 +1,12 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
-import './About.css'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { about } from '../../portfolio.tsx';
+import './About.css';
 import Pdf from '../../Resume_of_Omar_Shalaby.pdf';
 
-const About = () => {
-  const { name, role, description, resume, social } = about
+const About: React.FC = () => {
+  
+  const { name, role, description, resume, social } = about;
 
   return (
     <div className='about center'>
@@ -21,9 +22,9 @@ const About = () => {
       <div className='about__contact center'>
         {resume && (
           <a href={Pdf}>
-            <span type='button' className='btn btn--outline'>
+            <button className='btn btn--outline'>
               Resume
-            </span>
+            </button>
           </a>
         )}
 
@@ -53,6 +54,6 @@ const About = () => {
       </div>
     </div>
   )
-}
+};
 
-export default About
+export default About;

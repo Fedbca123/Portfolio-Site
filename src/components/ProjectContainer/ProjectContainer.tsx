@@ -1,9 +1,19 @@
-import uniqid from 'uniqid'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
-import './ProjectContainer.css'
+import uniqid from 'uniqid';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LaunchIcon from '@material-ui/icons/Launch';
+import './ProjectContainer.css';
 
-const ProjectContainer = ({ project }) => (
+interface ProjectContainerProps {
+  project: {
+    name: string;
+    description: string;
+    stack: string[];
+    sourceCode?: string;
+    livePreview?: string;
+  };
+}
+
+const ProjectContainer: React.FC<ProjectContainerProps> = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
@@ -38,6 +48,6 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
   </div>
-)
+);
 
-export default ProjectContainer
+export default ProjectContainer;

@@ -1,6 +1,6 @@
-import './Footer.css'
+import './Footer.css';
 
-const Footer = () => (
+const Footer:React.FC = () => (
   <footer className='footer'>
     {/* <a
       href='https://github.com/rajshekhar26/cleanfolio'

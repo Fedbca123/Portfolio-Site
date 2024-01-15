@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
-import './ScrollToTop.css'
+import { useEffect, useState } from 'react';
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import './ScrollToTop.css';
 
-const ScrollToTop = () => {
-  const [isVisible, setIsVisible] = useState(false)
+const ScrollToTop: React.FC = () => {
+  
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const toggleVisibility = () =>
@@ -11,7 +12,7 @@ const ScrollToTop = () => {
 
     window.addEventListener('scroll', toggleVisibility)
     return () => window.removeEventListener('scroll', toggleVisibility)
-  }, [])
+  }, []);
 
   return isVisible ? (
     <div className='scroll-top'>
@@ -19,7 +20,7 @@ const ScrollToTop = () => {
         <ArrowUpwardIcon fontSize='large' />
       </a>
     </div>
-  ) : null
+  ) : null;
 }
 
-export default ScrollToTop
+export default ScrollToTop;

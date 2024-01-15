@@ -1,9 +1,9 @@
-import { header } from '../../portfolio'
-import Navbar from '../Navbar/Navbar'
-import './Header.css'
+import { header } from '../../portfolio.tsx';
+import Navbar from '../Navbar/Navbar';
+import './Header.css';
 
-const Header = () => {
-  const { homepage, title } = header
+const Header: React.FC = () => {
+  const { homepage, title } = header;
 
   return (
     <header className='header center'>
@@ -21,4 +21,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

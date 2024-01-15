@@ -1,22 +1,23 @@
-import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
-import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
-import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact, workExp } from '../../portfolio'
-import './Navbar.css'
+import { useContext, useState } from 'react';
+import Brightness2Icon from '@material-ui/icons/Brightness2';
+import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded';
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
+import { ThemeContext } from '../../contexts/theme';
+import { projects, skills, contact, workExp } from '../../portfolio';
+import './Navbar.css';
 
-const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(false)
+const Navbar: React.FC = () => {
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+  const [showNavList, setShowNavList] = useState(false);
+
+  const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
     <nav className='center nav'>
       <ul
-        style={{ display: showNavList ? 'flex' : null }}
+        style={{ display: showNavList ? 'flex' : '' }}
         className='nav__list'
       >
         {workExp.length ? (
@@ -87,6 +88,6 @@ const Navbar = () => {
       </button>
     </nav>
   )
-}
+};
 
-export default Navbar
+export default Navbar;

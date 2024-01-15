@@ -63,7 +63,7 @@ const projects = [
   },
 ]
 
-const skills = [
+const skills: string[] = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   'HTML',
@@ -102,4 +102,4 @@ const contact = {
   email: 'shalabymomar@gmail.com',
 }
 
-export { header, about, workExp, projects, skills, contact }
+export { header, about, workExp, projects, skills, contact };
