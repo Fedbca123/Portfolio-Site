@@ -8,7 +8,7 @@ interface ProjectContainerProps {
     name: string;
     description: string;
     stack: string[];
-    sourceCode?: string;
+    url?: string;
     livePreview?: string;
   };
 }
@@ -28,9 +28,9 @@ const ProjectContainer: React.FC<ProjectContainerProps> = ({ project }) => (
       </ul>
     )}
 
-    {project.sourceCode && (
+    {project.url && (
       <a
-        href={project.sourceCode}
+        href={project.url}
         aria-label='source code'
         className='link link--icon'
       >

@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://oshalaby.dev',
-  title: 'JS.',
+  title: 'TS.',
 }
 
 const about = {
