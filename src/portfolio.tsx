@@ -95,6 +95,12 @@ const skills: string[] = [
   'Heroku',
   'Vite',
   'Vercel',
+  'SOQL',
+  'Apex', 
+  'Salesforce Lightning Web Components',
+  'ASP.net',
+  'Docker',
+  'GraphQL',
 ]
 
 const contact = {
