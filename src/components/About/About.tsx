@@ -12,7 +12,7 @@ const About: React.FC = () => {
     <div className='about center'>
       {name && (
         <h1 className='about__center'>
-          <span className='typing'>Hi, I am <span className='about__name'>{name}</span></span>
+          <span className='typing'>Hi, I'm <span className='about__name'>{name}</span></span>
         </h1>
       )}
 
