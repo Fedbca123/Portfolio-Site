@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 import uniqid from 'uniqid';
 import ProjectContainer from '../ProjectContainer/ProjectContainer';
 import './Projects.css';
 
 const Projects: React.FC = () => {
   const [projects, setProjects] = useState([]);
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1
+  });
 
   useEffect(() => {
     fetch('https://portfolio-backend-production-6c214.up.railway.app/projects')
@@ -22,8 +27,8 @@ const Projects: React.FC = () => {
     <section id='projects' className='section projects'>
       <h2 className='section__title'>Projects</h2>
 
-      <div className='projects__grid'>
-        {projects.map((projectObj) => (
+      <div className={`projects__grid ${inView ? 'fade-in' : ''}`} ref={ref}>
+        {projects.map((projectObj:any) => (
           <ProjectContainer key={uniqid()} project={projectObj.project} />
         ))}
       </div>
